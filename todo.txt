@@ -1,0 +1,23 @@
+Implementar métodos para update e delete:
+    1 - implementar métodos de confiramçaõ por mensagem (confiramação de update e delete)
+Implementar inclusão de usuário:
+    1 - criar model User
+    2 - criar controllerUser
+    4 - criar migration create-user (table_name users)
+    5 - implementar método para incluir um novo usuário:
+        5.1 - implementar método para identificar usuário admin de usuário comum
+        5.2 - definir controle de acesso para cada usuário
+    6 - implementar método para atualizar os dados do usuário
+    7 - implementar método para recuperar a senha do usuário
+    8 - implementar método para desativar um usuário
+    9 - implementar método para excluir definitivamente um usuário
+Implementar sistema de autenticação com JWT
+Implementar testes automatizados com JEST:
+    1 - teste de inclusão dos produtos
+    2 - teste de buscar dos produtos
+    3 - teste de busca por id
+    4 - teste de update
+    5 - teste de delete
+    6 - teste de inclusão de usuário
+    7 - teste de atualização de dados do usuário
+    8 - teste de autenticação
