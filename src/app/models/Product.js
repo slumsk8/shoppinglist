@@ -4,7 +4,7 @@ const sequelize = new Sequelize(require('../../config/database'))
 const Product = sequelize.define("Product", {
     name: DataTypes.STRING,
     description: DataTypes.STRING,
-    price: DataTypes.FLOAT
+    price: DataTypes.STRING
 })
 
 module.exports = Product

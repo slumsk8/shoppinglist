@@ -14,10 +14,10 @@ class ProductController {
 
     }
 
-    async getProduct(req,res){
+    async getProducts(req,res){
         
         const products = await Product.findAll()
-
+        
         return res.json(products)
 
     }
